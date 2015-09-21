@@ -1,7 +1,20 @@
+this fork 
+==========
+1. fixed a fatal bug. (if multiple css files are provided only the last one has effect.)
+2. updated dependency `css-parser` to its current version.
+   (its api has changed a lot)
+
+###TODO of fork: 
+-------
+add `parser-css` as dep in bower. 
+
+
+
 vminpoly
 ========
 
 A polyfill for CSS units vw, vh &amp; vmin.
+
 
 Simple online [demo](http://saabi.github.com/vminpoly) right here. A more sophisticated [responsive demo](http://saabi.github.com/vminpoly/demo2.html) demonstrating vw/vh/vmin units along with *media queries*, working right down to IE5.5 on the desktop and Opera Mini on mobiles!! (In Opera Mini the browser must be refreshed after changing phone orientations as it appears it doesn't trigger the window resize event)
 

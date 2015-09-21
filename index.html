@@ -33,8 +33,16 @@
       };
     }
   </script>
-  <script src="tokenizer.js"></script>
-  <script src="parser.js"></script>
+
+  
+
+  <script>
+    // By default `vminpoly` will do nothing if you are using a browser supports it,
+    // but if you want to activate it anyway, (e.g. see the converted result during devlepment)
+    // you could achieve it by toggling this flag:
+    window.VMINPOLY_ENV = 'dev';
+  </script>
+  <script src="parse-css.js"></script> 
   <script src="vminpoly.js"></script>
 </body>
 </html>
